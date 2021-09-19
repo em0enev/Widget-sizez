@@ -24,12 +24,12 @@ html {
   align-items: center;
   justify-content: center;
   flex-flow: column;
-  padding: 50px;
+  padding:  map-get($map: $widget-sizes, $key: large );
   .products {
     display: flex;
   }
   .card {
-    margin-right: 30px;
+    margin-right: map-get($map: $widget-sizes, $key: small );
     .hot {
       color: orangered;
       font-weight: bold;
